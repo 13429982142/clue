@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Tailwind v4 中 button 默认 cursor 为 default，统一恢复为手型可点击标识 */
+button:not(:disabled),
+[role="button"]:not(:disabled) {
+  cursor: pointer;
+}
+
